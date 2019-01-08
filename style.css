@@ -3,7 +3,41 @@
   src: url('Olde English.ttf');
 }
 
-#name {
+header 
+{
+	position  : fixed;
+	background:  #DDD;
+	padding   : 20px;
+	top       : 0px;
+	left      : 0px;
+	right     : 0px;
+	display   : flex;
+}
+#NewYorkTitle
+{
 	font-family: 'Olde English';
 	font-size: 2rem;
+	margin   :0;
+	margin-top: 0px;
+	margin-left: 20%;
+}
+ul 
+{
+	margin: 0px;
+	margin-top: 10px;
+}
+ul li 
+{
+   display: inline-block;
+   margin-right: 15px;
+
+}
+#logButton
+{
+	position : absolute;
+	top : 10px;
+	right: 20px;
+	margin-left : 12px;
+	margin-top : 10;
+	padding : 0;
 }
