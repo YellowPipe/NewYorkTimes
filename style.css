@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Olde English';
+  src: url('Olde English.ttf');
+}
+
+#name {
+	font-family: 'Olde English';
+	font-size: 2rem;
+}
