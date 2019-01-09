@@ -140,7 +140,19 @@ p {
 	display: inline-block;
 }
 
-	h3	{
+.box {
+	width : 30%;
+	height: 150px
+}
+.box p
+{
+   margin : 0;
+   /*padding: 10px;*/
+   /*font-size: 15px;*/
+   height: 100px
+
+}
+h3	{
 	font-size: 17px;
 	margin-left: 10px;
 }
@@ -149,4 +161,12 @@ p {
 	display: inline;
 	height: 170px;
 	width: auto;
+}
+h6  {
+	font-weight: normal;
+	color : #7f8c8d ;
+	font-size : 12px;
+	float : right;
+	padding : 4px;
+	margin : 0px;
 }
