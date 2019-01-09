@@ -20,7 +20,7 @@ header *:hover {
 	cursor: pointer;
 }
 
-#NewYorkTitle
+.NewYorkTitle
 {
 	font-family: 'Olde English';
 	font-size: 29px;
@@ -128,7 +128,7 @@ p {
 	border-top: 1px solid #D4D8D9;
 }
 
-#moreOnSpace {
+.suggestSection {
 	float: left;
 	margin-left: 50px;
 	width: 63%;
@@ -136,13 +136,13 @@ p {
 	border-top: 1px solid black;
 }
 
-#moreOnSpace p {
+.suggestSection p {
 	display: inline-block;
 }
 
 .box {
-	width : 30%;
-	height: 150px
+	width : 250px;
+	height: 300px;
 }
 .box p
 {
@@ -157,7 +157,7 @@ h3	{
 	margin-left: 10px;
 }
 
-#moreOnSpace img {
+.suggestSection img {
 	display: inline;
 	height: 170px;
 	width: auto;
@@ -169,4 +169,76 @@ h6  {
 	float : right;
 	padding : 4px;
 	margin : 0px;
+}
+
+#otherSections {
+	clear: left;
+	width: 90%;
+	border-top: 3px solid #D4D8D9;
+	margin: auto;
+}
+
+#otherSections h2{
+	margin:10px 30px;
+}
+
+#otherSections ul{
+	display: inline-block;
+	list-style: none;
+	width: 13%;
+	margin-top: 0;
+	height: 300px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#otherSections li{
+	margin-bottom: 5px; 
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#otherSections li:hover{
+	cursor: pointer; 
+}
+
+#sectionsBottom {
+	margin-top: 0;
+}
+
+#SUBSCRIBE {
+	border-left: 1px solid #D4D8D9
+
+}
+
+#otherSections .sectionHeader {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#SUBSCRIBE .boldSection {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+footer {
+	border-top: 1px solid #D4D8D9;
+	padding-top: 20px; 
+}
+
+footer ul {
+	width: 80%;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+footer ul li {
+		display: inline-block;
+		list-style: none;
+		margin-left: 30px;
+		color: #939B9E;
+}
+
+footer ul li:hover {
+		cursor: pointer;
 }
