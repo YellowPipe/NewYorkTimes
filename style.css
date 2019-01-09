@@ -47,7 +47,7 @@ header ul li
 	margin-top : 10;
 }
 
-#logButton button 
+ button 
 {
 	padding : 10px;
 	background: #2980b9;
@@ -92,6 +92,41 @@ header ul li
 	font-size: 13px;
 	color: grey;
 	margin-top: -10px;
+}
+
+#smallGrey {
+	font-size: 15px;
+	color: grey;
+}
+
+	 h5 {
+	font-size: 17px;
+	color: grey;
+	font-weight: normal;
+	margin: 0px;
+}
+
+#video p {
+	font-size: 15px;
+	color: grey;
+	margin: 0px;
+}
+
+#img7 img{
+	width: 570px;
+	height: auto;
+}
+
+#img7 p {
+	font-size: 15px;
+	color: grey;
+	margin: 0px;
+}
+
+#ending {
+	font-size: 13px;
+	color: #ADB7BA;
+	margin: 20px 0;
 }
 
 p {
@@ -145,6 +180,7 @@ p {
 	width : 250px;
 	height: 300px;
 	vertical-align: top;
+	margin-bottom: 30px;
 }
 .box p
 {
@@ -174,8 +210,9 @@ h6  {
 }
 .date 
 {
-	/*margin-top : 10px;*/
-    vertical-align: top;
+margin-top: -15px;
+float: left;
+margin-left: 5px;
 }
 #otherSections {
 	clear: left;
@@ -253,4 +290,9 @@ footer ul li {
 
 footer ul li:hover {
 		cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #497899;
 }
