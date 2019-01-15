@@ -2,7 +2,9 @@
   font-family: 'Olde English';
   src: url('Olde English.ttf');
 }
-
+body{
+	font-family: sans-serif
+}
 header 
 {
 	position  : fixed;
@@ -14,6 +16,7 @@ header
 	height: 25px;
 	border-bottom: 1px solid #DDD;
 	background-color: white;
+
 }
 
 header *:hover {
@@ -24,9 +27,10 @@ header *:hover {
 {
 	font-family: 'Olde English';
 	font-size: 29px;
-	margin   :0;
+	/*margin   :0;
 	margin-top: -5px;
-	margin-left: 20%;
+	margin-left: 20%;*/
+	margin: -5px 0 0 20%;
 }
 header ul 
 {
@@ -44,7 +48,7 @@ header ul li
 	top : 10px;
 	right: 20px;
 	margin-left : 12px;
-	margin-top : 10;
+	margin-top : 0;
 }
 
  button 
@@ -106,7 +110,7 @@ header ul li
 	margin: 0px;
 }
 
-#video p {
+.pVideo {
 	font-size: 15px;
 	color: grey;
 	margin: 0px;
@@ -191,7 +195,7 @@ p {
 }
 h3	{
 	font-size: 17px;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 
 .suggestSection img {
@@ -256,9 +260,10 @@ margin-left: 5px;
 
 }
 
-#otherSections .sectionHeader {
+.sectionHeader {
 	font-weight: bold;
 	margin-bottom: 10px;
+
 }
 #editors 
 {
@@ -296,3 +301,16 @@ a {
 	text-decoration: none;
 	color: #497899;
 }
+
+/*----the inflation css------*/
+.inflation
+{
+	width : 600px;
+	margin :0 auto;
+	background: url(inflation-720.png);
+	height: 1000px;
+	background-size: 100%
+	 
+}
+
+/*----the inflation css------*/
