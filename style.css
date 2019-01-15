@@ -9,9 +9,9 @@ header
 {
 	position  : fixed;
 	padding   : 15px;
-	top       : 0px;
-	left      : 0px;
-	right     : 0px;
+	top       : 0;
+	left      : 0;
+	right     : 0;
 	display   : flex;
 	height: 25px;
 	border-bottom: 1px solid #DDD;
@@ -34,7 +34,7 @@ header *:hover {
 }
 header ul 
 {
-	margin: 0px;
+	margin: 0;
 }
 header ul li 
 {
@@ -107,7 +107,7 @@ header ul li
 	font-size: 17px;
 	color: grey;
 	font-weight: normal;
-	margin: 0px;
+	margin: 0;
 }
 
 .pVideo {
@@ -153,7 +153,6 @@ p {
 }
 
 #sections {
-	display: inline;
 	float: right;
 	margin-right: 50px;
 	font-size: 20px;
@@ -199,7 +198,6 @@ h3	{
 }
 
 .suggestSection img {
-	display: inline;
 	height: 170px;
 	width: auto;
 }
@@ -209,7 +207,7 @@ h6  {
 	font-size : 12px;
 	float : right;
 	padding : 4px;
-	margin : 0px;
+	margin : 0;
 
 }
 .date 
@@ -244,7 +242,6 @@ margin-left: 5px;
 #otherSections li{
 	margin-bottom: 5px; 
 	font-size: 14px;
-	margin-bottom: 5px;
 }
 
 #otherSections li:hover{
@@ -302,15 +299,29 @@ a {
 	color: #497899;
 }
 
-/*----the inflation css------*/
 .inflation
 {
-	width : 600px;
-	margin :0 auto;
+	width : 800px;
+	margin :10px auto 0 -120px;
 	background: url(inflation-720.png);
-	height: 1000px;
-	background-size: 100%
-	 
+	height: 750px;
+	background-size: 100%;	 
+	background-repeat: no-repeat;
+
 }
 
-/*----the inflation css------*/
+.inflationTitle {
+	margin-left: -120px;
+	margin-bottom: 5px;
+
+}
+
+.textOnImage {
+	display: inline-block;
+	width: 180px;
+	font-size: 15px;
+	margin-top: 150px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
