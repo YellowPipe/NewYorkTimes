@@ -1,2 +1,2 @@
 # NewYorkTimes
-[I'm an inline-style link](https://www.google.com)
+New York Times article page replica done with [Talaa Zina](https://github.com/zinagithub)
