@@ -2,18 +2,21 @@
   font-family: 'Olde English';
   src: url('Olde English.ttf');
 }
-
+body{
+	font-family: sans-serif
+}
 header 
 {
 	position  : fixed;
 	padding   : 15px;
-	top       : 0px;
-	left      : 0px;
-	right     : 0px;
+	top       : 0;
+	left      : 0;
+	right     : 0;
 	display   : flex;
 	height: 25px;
 	border-bottom: 1px solid #DDD;
 	background-color: white;
+
 }
 
 header *:hover {
@@ -24,13 +27,11 @@ header *:hover {
 {
 	font-family: 'Olde English';
 	font-size: 29px;
-	margin   :0;
-	margin-top: -5px;
-	margin-left: 20%;
+	margin: -5px 0 0 20%;
 }
 header ul 
 {
-	margin: 0px;
+	margin: 0;
 }
 header ul li 
 {
@@ -44,7 +45,7 @@ header ul li
 	top : 10px;
 	right: 20px;
 	margin-left : 12px;
-	margin-top : 10;
+	margin-top : 0;
 }
 
  button 
@@ -103,13 +104,13 @@ header ul li
 	font-size: 17px;
 	color: grey;
 	font-weight: normal;
-	margin: 0px;
+	margin: 0;
 }
 
-#video p {
+.pVideo {
 	font-size: 15px;
 	color: grey;
-	margin: 0px;
+	margin: 0;
 }
 
 #img7 img{
@@ -120,7 +121,7 @@ header ul li
 #img7 p {
 	font-size: 15px;
 	color: grey;
-	margin: 0px;
+	margin: 0;
 }
 
 #ending {
@@ -145,11 +146,12 @@ p {
 	display: inline-block;
 	margin: 7px;
 	width: 250px;
-	height: auto;
+	height: 300px;
+	vertical-align: top;
+	margin-bottom: 30px;
 }
 
 #sections {
-	display: inline;
 	float: right;
 	margin-right: 50px;
 	font-size: 20px;
@@ -191,11 +193,10 @@ p {
 }
 h3	{
 	font-size: 17px;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 
 .suggestSection img {
-	display: inline;
 	height: 170px;
 	width: auto;
 }
@@ -205,7 +206,7 @@ h6  {
 	font-size : 12px;
 	float : right;
 	padding : 4px;
-	margin : 0px;
+	margin : 0;
 
 }
 .date 
@@ -240,7 +241,6 @@ margin-left: 5px;
 #otherSections li{
 	margin-bottom: 5px; 
 	font-size: 14px;
-	margin-bottom: 5px;
 }
 
 #otherSections li:hover{
@@ -256,9 +256,10 @@ margin-left: 5px;
 
 }
 
-#otherSections .sectionHeader {
+.sectionHeader {
 	font-weight: bold;
 	margin-bottom: 10px;
+
 }
 #editors 
 {
@@ -296,3 +297,28 @@ a {
 	text-decoration: none;
 	color: #497899;
 }
+
+.inflation
+{
+	width : 800px;
+	margin :10px auto 0 -120px;
+	background: url(inflation-720.png) no-repeat;
+	height: 750px;
+	background-size: 100%;	 
+}
+
+.inflationTitle {
+	margin-left: -120px;
+	margin-bottom: 5px;
+
+}
+
+.textOnImage {
+	display: inline-block;
+	width: 180px;
+	font-size: 15px;
+	margin-top: 150px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
