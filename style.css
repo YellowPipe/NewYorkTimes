@@ -1,0 +1,324 @@
+@font-face {
+  font-family: 'Olde English';
+  src: url('Olde English.ttf');
+}
+body{
+	font-family: sans-serif
+}
+header 
+{
+	position  : fixed;
+	padding   : 15px;
+	top       : 0;
+	left      : 0;
+	right     : 0;
+	display   : flex;
+	height: 25px;
+	border-bottom: 1px solid #DDD;
+	background-color: white;
+
+}
+
+header *:hover {
+	cursor: pointer;
+}
+
+.NewYorkTitle
+{
+	font-family: 'Olde English';
+	font-size: 29px;
+	margin: -5px 0 0 20%;
+}
+header ul 
+{
+	margin: 0;
+}
+header ul li 
+{
+   display: inline-block;
+   margin-right: 15px;
+
+}
+#logButton
+{
+	position : absolute;
+	top : 10px;
+	right: 20px;
+	margin-left : 12px;
+	margin-top : 0;
+}
+
+ button 
+{
+	padding : 10px;
+	background: #2980b9;
+	color : white;
+	font-weight: bold;
+	font-size: 10px;
+	border-radius: 3px;
+
+
+}
+#titleOfArticle {
+	margin-top: 100px;
+	display : block;
+	width : 53%;
+	margin-left: 100px;
+	font-family: georgia;
+}
+
+#container {
+	display: block;
+	margin: 100px auto;
+	width: 550px;
+}
+
+#image1 {
+	width: 800px;
+	display: block;
+	margin: 30px auto;
+}
+
+#image1 img {
+	height: 500px;
+	width: auto;
+}
+#biggerP {
+	font-size: 16px;
+	/*margin: 10px ;*/
+	width: 95%;
+	color: grey;
+}
+#smallerP {
+	font-size: 13px;
+	color: grey;
+	margin-top: -10px;
+}
+
+#smallGrey {
+	font-size: 15px;
+	color: grey;
+}
+
+	 h5 {
+	font-size: 17px;
+	color: grey;
+	font-weight: normal;
+	margin: 0;
+}
+
+.pVideo {
+	font-size: 15px;
+	color: grey;
+	margin: 0;
+}
+
+#img7 img{
+	width: 570px;
+	height: auto;
+}
+
+#img7 p {
+	font-size: 15px;
+	color: grey;
+	margin: 0;
+}
+
+#ending {
+	font-size: 13px;
+	color: #ADB7BA;
+	margin: 20px 0;
+}
+
+p {
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	color: #393737;
+}
+
+#date {
+	font-size: 14px;
+	color: #333;
+}
+
+
+.box {
+	display: inline-block;
+	margin: 7px;
+	width: 250px;
+	height: 300px;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+#sections {
+	float: right;
+	margin-right: 50px;
+	font-size: 20px;
+	width: 25%;
+	border-top: 1px solid black;
+}
+
+#sections li {
+	padding: 15px 0;
+	list-style: none;
+	border-top: 1px solid #D4D8D9;
+}
+
+.suggestSection {
+	float: left;
+	margin-left: 50px;
+	width: 63%;
+	margin-right: 0;
+	border-top: 1px solid black;
+
+}
+
+.suggestSection p {
+	display: inline-block;
+}
+
+.box {
+	width : 250px;
+	height: 300px;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+.box p
+{
+   margin : 10px;
+   height: 100px;
+   vertical-align: top;
+
+}
+h3	{
+	font-size: 17px;
+	/*margin-left: 10px;*/
+}
+
+.suggestSection img {
+	height: 170px;
+	width: auto;
+}
+h6  {
+	font-weight: normal;
+	color : #7f8c8d ;
+	font-size : 12px;
+	float : right;
+	padding : 4px;
+	margin : 0;
+
+}
+.date 
+{
+margin-top: -15px;
+float: left;
+margin-left: 5px;
+}
+#otherSections {
+	clear: left;
+	width: 90%;
+	border-top: 3px solid #D4D8D9;
+	margin: auto;
+}
+
+#otherSections h2{
+	margin:10px 30px;
+}
+
+#otherSections ul{
+	display: inline-block;
+	list-style: none;
+	width: 13%;
+	margin-top: 10px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 30px;
+	vertical-align: top;
+
+}
+
+#otherSections li{
+	margin-bottom: 5px; 
+	font-size: 14px;
+}
+
+#otherSections li:hover{
+	cursor: pointer; 
+}
+
+#sectionsBottom {
+	margin-top: 0;
+}
+
+#SUBSCRIBE {
+	border-left: 1px solid #D4D8D9
+
+}
+
+.sectionHeader {
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+#editors 
+{
+	margin : 0;
+    
+}
+#SUBSCRIBE .boldSection {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+footer {
+	border-top: 1px solid #D4D8D9;
+	padding-top: 20px; 
+}
+
+footer ul {
+	width: 80%;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+footer ul li {
+		display: inline-block;
+		list-style: none;
+		margin-left: 30px;
+		color: #939B9E;
+}
+
+footer ul li:hover {
+		cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #497899;
+}
+
+.inflation
+{
+	width : 800px;
+	margin :10px auto 0 -120px;
+	background: url(inflation-720.png) no-repeat;
+	height: 750px;
+	background-size: 100%;	 
+}
+
+.inflationTitle {
+	margin-left: -120px;
+	margin-bottom: 5px;
+
+}
+
+.textOnImage {
+	display: inline-block;
+	width: 180px;
+	font-size: 15px;
+	margin-top: 150px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
