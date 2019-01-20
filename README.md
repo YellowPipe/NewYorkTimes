@@ -1,2 +1,2 @@
 # NewYorkTimes
-New York Times article page replica done with [Talaa Zina]:(https://github.com/zinagithub)
+New York Times article page replica done with (https://www.google.com "Google's Homepage")
