@@ -1,2 +1,2 @@
 # NewYorkTimes
-New York Times article page replica done with (https://www.google.com "Google's Homepage")
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
